@@ -3,7 +3,7 @@
     "version": "0.1.0", 
     "slug": "aliddns", 
     "description": "ALiDDNS - Dynamic DNS CLI for [aliyun.com]", 
-    "url": "https://github.com/mocja28/hassio-addons/tree/master/aliddns", 
+    "url": "https://github.com/neroxps/hassio-addons/tree/master/aliddns", 
     "startup": "application", 
     "boot": "auto",  
     "ports": {
@@ -23,6 +23,6 @@
         "redo":"int?",
         "ipapi":"url?"
     },
-    "arch": [ "armhf", "armv7l", "aarch64", "amd64", "i386"],
+    "arch": [ "armhf", "armv7", "aarch64", "amd64", "i386"],
     "image": "neroxps/{arch}-aliddns-addon"
 }
